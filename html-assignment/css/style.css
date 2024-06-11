@@ -26,8 +26,8 @@ ul {
         text-decoration: none;
 }
 a {
-    border: 1px solid red;
     background-color: greenyellow;
+    border: 1px solid blue;
 }
 a:hover {
     background-color: red;
