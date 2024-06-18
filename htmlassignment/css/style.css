@@ -14,7 +14,7 @@ body {
 }
 
 /* i added box shadow to my picture */
-#Ibraheem {
+#ibraheem {
     box-shadow: 0px 0px 2px 1px black;
 }
 
@@ -25,7 +25,7 @@ body {
 
 /* i used this to change my navigation bullet to square */
 ul {
-    list-style-type: none;
+    list-style-type: square;
 }
 
 .no-underline {
