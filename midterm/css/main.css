@@ -49,9 +49,10 @@ nav li:last-child {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(42, 42, 42);
     display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
 }
 
 .inline-image {
@@ -59,4 +60,14 @@ a {
     max-width: 30%;
     height: auto;
     margin-right: 10px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    transition: bacground-colour 0.3s, color 0.3s;
+}
+
+footer {
+    text-align: right;
 }
