@@ -40,10 +40,20 @@ nav li {
     display: inline-block;
     width: 32%;
     text-align: center;
-    color: black;
     border-right: 1px solid black;
 }
 
 nav li:last-child {
     border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.responsive-image {
+    max-width: 100%;
 }
