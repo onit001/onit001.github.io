@@ -4,3 +4,29 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    position: relative;
+    width: 100%;
+    background-image: url(/image/rtw-model-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: lightgrey;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
