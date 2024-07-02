@@ -54,6 +54,9 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.responsive-image {
-    max-width: 100%;
+.inline-image {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
 }
