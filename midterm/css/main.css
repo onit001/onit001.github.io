@@ -30,3 +30,20 @@ h1 {
     color: aliceblue;
     font-size: 30px;
 }
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    color: black;
+    border-right: 1px solid black;
+}
+
+nav li:last-child {
+    border-right: none;
+}
