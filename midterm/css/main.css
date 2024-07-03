@@ -12,7 +12,7 @@ header {
 }
 
 .nav-img{
-    width: 710px;
+    width: 726px;
     height: auto;
     margin: 1px;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ header {
 h1 {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 35%;
     text-align: center;
     color: aliceblue;
     font-size: 30px;
