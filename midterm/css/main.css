@@ -7,12 +7,14 @@ body {
 
 header {
     position: relative;
-    width: 100%;
-    background-image: url(/image/rtw-model-2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    padding: 20px;
+    width: 700px;
+    padding: 10px;
+}
+
+.nav-img{
+    width: 710px;
+    height: auto;
+    margin: 1px;
     box-sizing: border-box;
 }
 
@@ -24,8 +26,9 @@ header {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     top: 40%;
+    left: 30%;
     text-align: center;
     color: aliceblue;
     font-size: 30px;
