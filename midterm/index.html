@@ -21,7 +21,7 @@
         <main>
             <article>
                 <h2>ABOUT OUR BRAND</h2>
-                <P><img src="image/rtw-model-1.jpg" alt="a model" class="inline-image"> Welcome to Ready to Wear (R.T.W), where fashion meets functionality in perfect harmony.At R.T.W, we believe that fashion should not only make a statement but also simplify your life. Our brand was born from a desire to create clothing that is stylish, versatile, and, most importantly, ready to wear at any moment. We understand the demands of a fast-paced lifestyle and design our collections to seamlessly fit into your daily routine, without compromising on style.Our Philosoph Simplicity and Elegance: We focus on creating timeless pieces that can be effortlessly incorporated into your wardrobe. Our designs are clean, elegant, and suitable for any occasion.Quality and Comfort: We prioritize the use of high-quality fabrics and materials to ensure that every piece is not only stylish but also comfortable to wear. Each item is crafted with precision and care, ensuring durability and a perfect fit.Versatility and Functionality: Our collections are designed with the modern individual in mind. Whether you're heading to a business meeting, a casual outing, or a special event, R.T.W offers versatile options that make dressing up or down a breeze.</P>
+                <P><img src="image/rtw-model-1.jpg" alt="a model" class="inline-image"> Welcome to Ready to Wear (R.T.W), where fashion meets functionality in perfect harmony.At R.T.W, we believe that fashion should not only make a statement but also simplify your life. Our brand was born from a desire to create clothing that is stylish, versatile, and, most importantly, ready to wear at any moment. We understand the demands of a fast-paced lifestyle and design our collections to seamlessly fit into your daily routine. Quality and Comfort: We prioritize the use of high-quality fabrics and materials to ensure that every piece is not only stylish but also comfortable to wear. Each item is crafted with precision and care, ensuring durability and a perfect fit.Versatility and Functionality: Our collections are designed with the modern individual in mind. Whether you're heading to a business meeting, a casual outing, or a special event, R.T.W offers versatile options that make dressing up or down a breeze.</P>
             </article>
             <section>
                 <h3>FACTS ABOUT R.T.W</h3>
@@ -35,17 +35,29 @@
                     <li>Innovative Designs: R.T.W is known for its innovative and trendy designs. Their team of talented designers constantly pushes the boundaries of fashion, creating unique pieces that are both stylish and comfortable.</li>
                 </ul>
             </section>
-            <div>
-                <h2>PLACE YOUR ORDER HERE</h2>
-                    <label for="fullname">Your Name</label>
-                    <input id="fullname" name="fullname" type="text">
-                    <label for="email">Your Email</label>
-                    <input id="email" name="email" type="text">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message"></textarea>
-                    <input type="submit" value="submit">
-                </form>
-            </div>
+            <h3>CONTACT US</h3>
+            <div id="form">
+                <label class="label" for="fullname">Your Name</label><br>
+                <input id="fullname" name="name" type="text" required><br>
+                
+                <label class="label" for="email">Your Email</label><br>
+                <input id="email" name="email" type="email" required><br>
+                
+                <label class="label" for="message">Your Message</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <h4>WOULD YOU REFER OUR BRAND?</h4>
+                <label>
+                    <input type="radio" name="visit" value="yes" required> Yes
+                </label>
+                <label>
+                    <input type="radio" name="visit" value="no"> No
+                </label>
+                <label>
+                    <input type="radio" name="visit" value="maybe"> Maybe
+                </label><br>
+            <button type="submit">Send</button>
+        </div>
         </main>
         <footer>
             <p>© copy Right ReadyToWear 2024</p>

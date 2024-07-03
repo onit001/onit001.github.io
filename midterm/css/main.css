@@ -18,7 +18,7 @@ header {
 
 .wrapper {
     background-color: lightgrey;
-    width: 75%;
+    width: 750px;
     margin: auto;
     padding: 20px;
 }
@@ -57,7 +57,7 @@ a {
 
 .inline-image {
     float: left;
-    max-width: 30%;
+    width: 300px;
     height: auto;
     margin-right: 10px;
 }
@@ -66,6 +66,34 @@ a:hover {
     background-color: black;
     color: white;
     transition: bacground-colour 0.3s, color 0.3s;
+}
+
+#form {
+    border: 1px solid black;
+    padding-top: 15px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+#fullname {
+    width: 711px;
+    margin: 10px;
+}
+
+#email {
+    width: 711px;
+    margin: 10px;
+}
+
+#message {
+    width: 711px;
+    margin: 10px;
+}
+
+h4 {
+    padding: 10px;
 }
 
 footer {
